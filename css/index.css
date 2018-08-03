@@ -27,6 +27,7 @@ body {
 #something {
 	font-size: 22px;
 	font-style: italic;
+	padding-left: 15px;
 }
 
 img.foto {
@@ -40,6 +41,7 @@ img.foto {
 .parrafo h3 {
 	font-size: 15px;
 	padding-top: 50px;
+	padding-left: 15px;
 }
 
 .portada {
@@ -76,10 +78,12 @@ img.foto {
 .contenedor {
 	margin: auto;
 	width: 80%;
+
 }
 
 .contacto {
 	margin: auto;
+	padding-left: 15px;
 	
 }
 
@@ -99,5 +103,8 @@ img.logos {
 }
 
 .bordes {
-	border: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	width: 80%;
+	margin: auto; 
 }
