@@ -1,3 +1,4 @@
+
 body {
 	font-family: 'Allerta', sans-serif;
 	margin: 0;
@@ -8,8 +9,8 @@ body {
 .titulo {
 	font-size: 50px;
 	font-family: 'Open Sans', sans-serif;
-	margin-bottom: 10px;
-	margin-top: 70px;
+	display: block;
+	margin: auto;
 	line-height: 70px;
 }
 
@@ -41,11 +42,10 @@ img.foto {
 .parrafo h3 {
 	font-size: 15px;
 	padding-top: 50px;
-	padding-left: 15px;
 }
 
 .portada {
-	background-image: url("../images/header-grey1.png");
+	background:#273b47;
 	color: white;
 	padding: 20px;
 }
@@ -77,15 +77,10 @@ img.foto {
 
 .contenedor {
 	margin: auto;
-	width: 80%;
+	width: 70%;
 
 }
 
-.contacto {
-	margin: auto;
-	padding-left: 15px;
-	
-}
 
 img.logos {
 	width: 20px;
@@ -97,11 +92,39 @@ img.logos {
 }
 .redes-sociales {
 	display: inline-block;
+	margin: auto;
+	padding-left: 15px;
 }
 
 .bordes {
 	border-left: 1px solid;
 	border-right: 1px solid;
-	width: 80%;
+	width: 70%;
 	margin: auto; 
+}
+.boton{
+	position: absolute;
+	right: 10%;
+	float: right;
+	border-radius: 8px;
+	background: #FE9A2E;
+	border:none;
+	margin: auto;
+	display: block;
+}
+.footer{
+	background: #273b47;
+}
+.contacto img{
+	display: block;
+}
+.contacto strong{
+	display: block;
+}
+.contacto a{
+	color:white;
+	text-decoration: none;
+}
+.label{
+	color:white;
 }
